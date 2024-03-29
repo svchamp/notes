@@ -1,0 +1,101 @@
+name, id, xpath
+
+Q.What is xpath and its types? Give examples.
+Q. Use of sendKeys() in selenium script? 
+
+link tag or Hyperlink contains Partial link text and link text
+Q.Diff between partail link text and link text?
+
+Hyper Image and Still Image
+
+------------------------------- 5 feb------------------------------------------
+
+Q. What is the diff b/w submit and click?
+Q. Diff b/w findElement and findElements?
+Q. Which command we use to clear the textbox?
+Q. Which command we use to read the text?
+Q. How you can relate isDisplayed() command with realtime application?
+Q. Give us 5 actions commands for your selenium script.
+Q. What is the meaning of Xpath access?
+Q. What is the meaning of child and parent in Xpath?
+
+
+-------------------------------- 6 Feb ----------------------------------------
+
+
+Q. When to use Javascript executor?
+
+
+
+------------------------------ 8 Feb -----------------------------------------
+
+Q. How to handle alerts in selenium? Types of Alert
+Q. What are the diff methods present to handle alerts in selenium?
+	>void dismiss(),void accept(), string getText(), sendKeys("sdff")
+Q. What is the diff between Popups and Alert?
+Q. What are windows? What are diff methods to handle windows?
+	>driver.getWindowHandle() driver.getWindowHandles()
+Q. What is ActionBuilder class used for?
+	>Drag and Drop
+Q. Ways of doing drag and drop?
+Q. Diff b/w Drag and Drop and Action Class Build?
+
+
+--------------------------- 12 feb -----------------------------------
+ 
+Q. Types of alerts?
+Q. What are system alerts?
+Q. What are popups? 
+Q. Diff b/w popup and alert
+Q. How to handle system popups? AutoIt and without AutoId
+Q. How to perform drag and drop by slider?
+Q. DDL DML
+Q. How we can define xml with our POM structure? We add Dependencies to our POM
+
+
+
+
+
+
+------------------------------------- 14 feb --------------------------------
+
+Q. How to find out whether to use implicit or explicit wait?
+implicit- When there is excution of any component at the fixed time
+explicit- No fixed time
+fluent- polling time, timeout time
+Q. Polling time in fluent wait
+
+------------------------------------ 15 feb -----------------------------------------------
+Q. What is selenium IDE?-> Record and play back tool used as browser extension which records all steps 
+Q. What is selenium RC?
+Q. What is selenium Grid?
+
+
+------------------------------------------------- 19 feb ----------------------------------------
+
+Q. What is element and locator?
+Q. What is your project title and what are the key elements?
+Q. 
+Q. 
+Q. 
+Q. 
+Q. 
+Q. 
+Q. 
+Q. 
+Q. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

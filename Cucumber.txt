@@ -1,0 +1,2 @@
+Q. Diff b/w selenium and cucumber
+Q. Characteristics of BDD

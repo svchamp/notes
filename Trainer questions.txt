@@ -1,0 +1,592 @@
+-------------------------------------- Testing --------------------------------------------------
+
+Q. What is VV model?
+	->The V-Model, also known as the Verification and Validation model, is a type of 
+	Software Development Life Cycle (SDLC) model.
+	->Verification involves static analysis of documents by Review, Walkthrough and Inspection.Validation evaluates whether specified requirements are met.
+	->It is represented by a 'V shape' with 2 legs: left leg-development phases
+	right leg-testing phases
+	->Phases: Requirement Analysis, Design, Implementation, Testing, Deployment, Maintenace.
+	->Used for safety critical systems.
+
+Q. Black Box testing?
+	->Knowledge of code is not required.Done by testers.Testing is done based on customer req.
+	Ex: System testing
+
+Q. What is system testing?
+	->System testing verifies the end-to-end behavior of a software application.
+	->Its goal is to identify errors, gaps, or missing requirements in the overall functionality of the software.
+	->Typically conducted after unit and integration tests are completed.
+	->Ex: Performance testing, load testing, Security testing, Usability testing,
+	Compatibility testing.
+
+Q. White Box testing?
+	->Requires knowledge of code. Done by developers.
+	Ex: Unit and Integration testing.
+
+
+
+------------------------------------ Java -------------------------------------------------------
+
+Q. What is a DESTRUCTOR in java
+
+Q. What is lambda expression in java?
+	-> Used to represent instance of functional interface
+	-> Makes working with functional interface easier
+	->Functional interfac is an interface which contains exactly
+	one abstract method. Blueprint from lambda expression.
+
+
+Q.What is JVM? 
+JVM-> Java virtual machine
+
+Q.What are the different types of variables? 
+Local and Global variables are the 2 type of variables
+
+Q.What are Non-primitive data types? -> Primitive are pre-defined and Non-Primitive data types are user defined
+
+Q.Can you tell the Different Data types in Java along with its size?
+
+Q.What is the difference between float and double datatypes? 
+
+Q.What is the difference between an Integer and int in Java? 
+	-> int is primitive data type. Integer is non-primitve.
+	Integer has a lot of built in methods while int does not. Ex:Integer.parseInt, toBinaryString()
+	We can directly cast a String to Integer but not to int.
+	Integer can be used with collections but int cannot.
+
+Q.What is an Array? 
+Array is a collection of similar data types.
+
+Q.Is it possible to declare an Array without Array size?-> Yes we can declare array without size but we cannot initialize it without size.
+
+Q.Can you write how to declare array? -> int[] arr, int arr[] 
+
+Q.When do you use BREAK statement in java? 
+
+Q.Explain super keyword in Java? 
+
+Q.What is the use of the final keyword? 
+
+Q.What is class? 
+
+Q.What is the base class of all classes? 
+
+Q.What is the purpose of THIS keyword? 
+
+Q.What do you mean by the Object in java? 
+
+Q.How many characteristics an Object possess? What are they? 
+
+Q.What are the different ways to create objects in Java? 
+
+Q.Explain ways to pass the arguments in Java? 
+
+Q.What is static variable in java? 
+
+Q.What is static block? 
+
+Q.What are Packages in Java? 
+	->Collection of classes is a package.
+
+Q.What is the abstraction in java? 
+
+Q.What do you mean by inheritance in java? 
+
+Q.What is a constructor? 
+
+Q.What are the different types of constructors? 
+
+Q.What is default and parameterized constructors? 
+
+Q.What is polymorphism in java? 
+
+Q.What do you mean by the method overloading? 
+	-> Compile time polymorphism
+	-> Method with same name different parameters
+	-> Inheritance not always required.
+	-> Return type can be same but parameters can vary
+	-> int add(int x, int y), int add(int x,int y,int z)
+
+Q.What do you mean by the method overriding in java? 
+	-> Method with same name and parameter in parent and child class 
+	-> Run time polymorphism
+	-> Inheritance is always required
+	-> Return type has to be same
+	-> toString(): We override toString() to provide a custom
+		representation of data.
+
+Q.What is an abstract class in Java? 
+
+Q.What is Interface in java? 
+
+Q.What is an implementation class of Interface? 
+
+Q.Describe constructor vs method? 
+
+Q.What are the differences between abstract class and interface? 
+
+Q.What are the differences between static and non-static methods? 
+
+Q.What is a wrapper class in Java? 
+
+Q.What is a path and classPath in Java? 
+
+Q.What is Type casting in Java? 
+
+Q.Explain the access modifiers that can be applied to the inner classes? 
+
+Q.What is the difference between Error and Exception? 
+
+Q.What are the types of exceptions? 
+
+Q.What is throw keyword in exception handling? 
+
+Q.What is throws keyword? 
+
+Q.Difference between throw and throws in Java
+
+
+
+---------------------------------------- SQL -------------------------------------------
+
+Physical data dependence-> ability to modify physical schema without modifying logical schema.
+Instance-> Actual value of data at a point in time.
+DDL-> Data Definition Language allow us to define the DB structure or schema.
+	CREATE, ALTER, DROP, TRUNCATE
+DML-> Data Manipulation Language is used for accessing and manipulating data. Also known as query language
+	SELECT, INSERT, UPDATE, DELETE
+Superkey-> A key K is superkey of R if values of K are sufficient to uniquely identify every tuple of each possible reln.
+Candidate Key-> Superkey K is a candidate key if there is no subset of K that can also uniquely identify every tuple of each possible reln.
+Primary Key-> One of the candidate keys is selected to be a primary key.
+Secondary keys-> All candidate keys that not selected as primary key
+Composite Key-> Key consists of more than one attribute that can uniquely identify an entity.
+
+
+Q. What is RDBMS? 
+
+Q. What is a schema? ->Logical way in which data is organized.
+
+Q. List the different types of relationships in SQL. ->
+
+Q. What are tables and Fields? ->
+
+Q. What is a primary key? 
+	-> Superkey K is a candidate key if there is no subset of K that can also uniquely identify every tuple of each possible reln.
+	One of the candidate keys is selected to be a primary key.
+
+Q. What is a unique key? 
+	-> Maintains data integrity by preventing duplicate values.
+	Ex: UNIQUE constraint
+
+Q. What is a foreign key? -> An attribute in one table is a key for another table.
+
+Q. What is the difference between CHAR and VARCHAR datatype in SQL? 
+	-> CHAR-Fixed length, Waste of space,We know max size of input, faster
+	-> VARCHAR- Variable length, No waste of space, Slower
+
+Q. What is a ‘constraint’?  
+	-> Set of rules that can be applied to the data within the table.
+	Ex: NOT NULL(column cannot have null value), 
+	UNIQUE (Values in a Column cannot be duplicate )
+	PRIMARY KEY (NOT NULL, UNIQUE)
+	FOREIGN KEY
+	CHECK (ensure value in a col staisfy a specific condition)
+
+Q. Explain the constraints available in SQL? ->
+
+Q. What is the main reason to add constraints to a table? ->
+
+Q. What is the difference between primary key and unique constraints? ->
+
+Q. What is an index? 
+	-> Index is used to enhance performance of a DB
+	-> Index contains keys built from one or more columns
+	Ex: Clustered Index, Non Clustered Index
+
+Q. What is Auto Increment? ->
+
+Q. What is the purpose of aggregate functions? ->
+
+Q. Explain the aggregate functions available in SQL ->
+
+Q. What are the scalar functions in SQL? Give an example? ->
+
+Q. Explain the scalar functions available in SQL ->
+
+Q. What is the SELECT statement? ->
+
+Q. What is CLAUSE? 
+	-> Built in function that helps us fetch the required records
+	from a DB table.
+	Ex: WHERE, HAVING, SELECT, ORDER BY
+
+Q. What are some common clauses used with SELECT query in SQL? ->
+
+Q. Which SQL clause is used to restrict the rows returned by a query? 
+	-> LIMIT
+
+Q. Which clause should you use to exclude group results? 
+	-> HAVING: filters grouped results based on aggrigate function values
+
+Q. Explain how GroupBy is used in query? ->
+
+Q. How “Having” clause will work? ->
+
+Q. What is the relationship between Having & GroupBy clause ->
+
+Q. Explain how OrderBy is used in query? ->
+
+Q. Which operator is used in query for pattern matching? Explaing with examples ->
+
+Q. What is the difference between BETWEEN and IN operators in SQL? ->
+
+Q. Are NULL values same as blank space?  ->
+
+Q. What is a join? ->
+
+Q. What is Inner Join? ->
+
+Q. How “Outer Join” works? ->
+
+Q. What is Full Join? ->
+
+Q. What is Self-Join?  In what situation you will use Self Join? ->
+
+Q. What is a Natural Join? ->
+
+Q. What is subquery? ->
+
+Q. What are the types of subquery? ->
+	1)Scalar subquery: Returns a single value(one row and one col)
+	2)Multiple-Row subquery: Returns one or more rows.
+	3)Multiple-Column subquery: Returns one or more columns
+	4)Correlated Subqueries: References columns from the outer SQL
+	statement. Executed once for each row in outer query.
+	5)Nested subquery: subquery withing another query.
+
+Q. What are similarities between Subqueries & Joins? 
+Q. What are differences between Subqueries & Joins? 
+	-> JOIN: Combines records from 2 or more tables based on Specific
+	condition. 
+	Used in FROM clause in a query. 
+	If it is omitted then a Cartesian Product(cross join) is used. 
+	INNER JOIN, OUTER JOIN,LEFT JOIN, RIGHT JOIN. 
+	Faster than subqueries
+	Less Readable
+	-> SUBQUERIES: Also known as inner queries or nested queries.
+	Returns data that is used as a condition to filter results from
+	main query.
+	
+
+Q. What is the difference between DELETE and TRUNCATE commands? ->
+
+Q. What is the difference between TRUNCATE and DROP statements? ->
+
+Q. What are Entities and Relationships? ->
+
+Q. What is data Integrity? ->
+
+Q. What is de-normalization, and when do you go for it? ->
+
+Q. What is a Stored Procedure? ->
+
+
+
+
+
+-------------------------------------- Selenium -------------------------------------------------
+ 
+Q. What is selenium?
+
+Q. How many types of frameworks in selenium?
+	-> Data driven framework
+	-> Keyword driven framework
+	-> Hybrid driven framework
+
+Q. Why is selenium framework preferred for testing?
+
+
+
+
+
+Q. What are the components of Selenium? 
+	-> Selenium is a powerful web browser automation tool. It consists of 4 major components:
+	1) Selenium IDE: It is a complete integrated development environment for Selenium tests. 
+	It records and plays back a user’s actions while interacting with a web browser. 
+	2) Selenium RC(Remote Control): Selenium RC is a server written in Java that accepts commands for the browser via HTTP.
+	It enables writing automated tests for web applications in any programming language.
+	3) Selenium WebDriver: It is a web framework. It is used for browser automation. It is the successor to Selenium RC. Unlike Selenium RC, 
+	WebDriver directly starts a browser instance and controls it without requiring a special server.
+	4) Selenium Grid:It facilitates parallel execution of tests across multiple machines or browsers.
+	Selenium grid works with WebDriver to execute tests remotely. 
+
+Q. What is Selenium IDE?  
+	-> It is a complete integrated development environment for Selenium tests. 
+	It records and plays back a user’s actions while interacting with a web browser
+
+Q. What is Selenium WebDriver?  
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+
+Q. How do you specify browser configurations with Selenium WebDriver?  
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+
+Q. Which web driver implementation is fastest?  
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+
+Q. Can you show me one code example of setting Selenium Webdriver?  
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+
+Q. What are all different element locators are available with Selenium?  
+	-> By.classname()
+	-> By.id()
+	-> By.linkText()
+	-> By.partialLinkText()
+	-> By.name()
+	-> By.tagName()
+	-> By.xpath()
+	-> By.cssSelector()
+
+Q. How to maximize the window using Selenium webdriver? 
+	-> driver.manage().window().maximize()
+
+Q. How do I clear content of a text box in Selenium webdriver?  
+	-> .clear()
+
+Q. How to execute JavaScript function in Selenium webdriver?  
+	-> JavascriptExecutor Interface has an executeScript() method which executes the desired
+	javascript function by passing it as an argument
+	-> org.openqa.JavascriptExecutor
+	-> JavascriptExecutor js=(JavascriptExecutor) driver;
+	-> 
+	-> 
+
+Q. How to select a drop-down value using Selenium webdriver?  
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+
+Q. Explain about select class and its methods? 
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+
+Q. How to automate radio button in Selenium Webdriver?  
+
+Q. How do you submit a form using Selenium?  
+
+Q. difference between findElement and findElements methods? 
+
+Q. How to count total number of links in a page using Selenium Webdriver?  
+
+Q. How to capture page title using Selenium Webdriver?  
+
+Q. How to store Current page URL using Selenium Webdriver?  
+
+Q. How do you simulate browser back and forward? 
+
+Q. What is the difference between single and double slash in Xpath?  
+
+Q. How to handle dynamic xpath? 
+
+Q. There is id, name, XPath, CSS locator, which one should I use? 
+
+Q. How to assert text of webpage using Selenium Webdriver?  
+
+Q. How to get element attribute using Selenium Webdriver?  
+
+Q. How to double click on element using Selenium Webdriver?  
+
+Q. How to perform drag and drop in Selenium Webdriver?  
+
+Q. How to synchronize application window and Selenium? 
+
+Q. Explain implicit and explicit wait ?
+	-> The Implicit Wait is used to tell the web driver to wait for a certain 
+	amount of time before throwing a “No Such Element Exception.”
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+	-> 
+Q. Is it possible to handle multiple windows in selenium? 
+
+Q. My application has lots of pop-up window, how do I work with them? 
+
+Q. How to mouse hover on an element? 
+
+Q. How to capture screen shot in webdriver?  
+
+Q. How do you connect Data base from selenium? 
+	-> 
+
+Q. How do you get the data from an excel sheet? \
+	-> FileInputStream to read data from file
+	-> XSSFWorkbook
+	-> XSSFSheet
+	-> XSSFRow
+	-> XSSFCell
+	-> 
+	-> 
+
+Q. How do you get the data from a properties file? 
+
+Q. What are the types of automation framework? 
+
+Q. What is Data driven framework & Keyword Driven? 
+	->
+
+Q. What is Selenium Grid, How Selenium Grid works? 
+	->
+
+Q.What is the default Port Id in Grid? 
+	-> 
+
+Q. What is POM, what are the advantages of POM in selenium? 
+
+Q. What is Page Factory? 
+
+Q. What are the advantages of using TestNG?  
+
+Q. What are the basic annotations used to run TestNG tests in Selenium? 
+
+Q. What is the difference between @beforemethod and @beforeclass? 
+
+Q. How to run test cases with dependent in Selenium using TestNG? 
+
+Q. How to run the test cases in group in Selenium using TestNG? 
+
+Q. What is the default priority of a test method in TestNG? 
+
+Q. What is the importance of testng.xml file? 
+
+Q. How to pass parameters from testng.xml into test case 
+
+Q. What is the use of @Listener annotation in TestNG? 
+
+  
+------------------------------------------------- BDD CUCUMBER ---------------------------------
+
+Q. What is BDD? How does Behavioural Driven Development work? 
+
+Q. What is Cucumber? and list its advantages? 
+
+Q. What are the main files required to run a Cucumber test scenario? 
+
+Q. What is meant by a feature file? 
+
+Q. What are the various keywords that are used in Cucumber for writing a scenario? 
+
+Q. What is the purpose of a Scenario Outline in Cucumber? 
+
+Q. What is the purpose of the Step Definition file in Cucumber? 
+
+Q. What is the use of the Background keyword in Cucumber? 
+
+Q. What is meant by hooks in Cucumber? 
+
+Q. How do you run multiple scenarios in Cucumber? 
+
+  
+-------------------------------------------------- GIT ---------------------------------------
+
+Q. What is Git? 
+
+Q. What do you understand by the term ‘Version Control System’? 
+
+Q. Name a few Git commands with their function. 
+
+Q. What is the process for creating a repository in Git? 
+
+Q. What is the git push command? 
+
+  
+-------------------------------------------------- MAVEN -----------------------------------------
+
+Q. What is Maven Tool? 
+
+Q. Why should we use Maven? 
+
+Q. What is a Maven POM file? 
+
+Q. What are the repositories in Maven? 
+
+Q. What is a Maven dependency? 
+
+Q. What is the use of Maven clean? 
+
+------------------------------------- CI/CD and Jenkins ------------------------------------------------
+
+Q. What is continuous integration and deployment? 
+
+Q. What are CI Tools? 
+
+Q. What is a CI CD pipeline? 
+
+Q. What is Jenkins? 
+
+Q. Why do we use Jenkins with selenium? 
+
+Q. How do you create a Job in Jenkins? 
+
+Q. How do you configure automatic builds in Jenkins? 
+
+
+---------------------------------------------- Apache POI -----------------------------------------------------
+
+Q. What is Apache poi?
+	->Apache POI,  where POI stands for (Poor Obfuscation Implementation)  is 
+	an API that offers a collection of Java libraries that helps us to read, 
+	write, and manipulate different Microsoft files such as excel sheets, 
+	power-point, and word files
+
+Q. Difference between XLS and XLSX?
+
+Q. What is workbook? Interface 
+
+Q. What are different interfaces in Apache POI?
+
+Q. How to read and write data?
+
+Q. 
+
+Q. 
+
+Q. 
+
+Q. 
+
+Q. 
+
+Q. 
+
+Q. 
+
+Q. 
+
+Q. 
+
